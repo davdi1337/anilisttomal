@@ -8,7 +8,7 @@
 @author         davdi1337
 ==/UserStyle== */
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
-@-moz-document url-prefix("https://myanimelist.net/animelist/"), url-prefix("https://myanimelist.net/mangalist") {
+@-moz-document url-prefix("https://myanimelist.net/animelist"), url-prefix("https://myanimelist.net/mangalist") {
     :root {
     --color: rgb(252, 157, 214);
     --text: #a0b1c5;
