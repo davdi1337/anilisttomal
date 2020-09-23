@@ -3,12 +3,12 @@
 @namespace      AniList to MAL
 @homepageURL    https://github.com/davdi1337/anilisttomal
 @updateURL      https://raw.githubusercontent.com/davdi1337/anilisttomal/master/main.user.css
-@version        1.0.1
+@version        1.0.2
 @description    Transform AniList to MAL
 @author         davdi1337
 ==/UserStyle== */
-@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 @-moz-document url-prefix("https://myanimelist.net/animelist"), url-prefix("https://myanimelist.net/mangalist") {
+    @font-face {font-family: "Overpass"; src: url("https://db.onlinewebfonts.com/t/0e2ef4c0c8cded65ed82e92ba4369ca2.eot"); src: url("https://db.onlinewebfonts.com/t/0e2ef4c0c8cded65ed82e92ba4369ca2.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/0e2ef4c0c8cded65ed82e92ba4369ca2.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/0e2ef4c0c8cded65ed82e92ba4369ca2.woff") format("woff"), url("https://db.onlinewebfonts.com/t/0e2ef4c0c8cded65ed82e92ba4369ca2.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/0e2ef4c0c8cded65ed82e92ba4369ca2.svg#Overpass") format("svg"); }
     :root {
     --color: rgb(252, 157, 214);
     --text: #a0b1c5;
