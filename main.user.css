@@ -149,7 +149,7 @@ body {
 /* STATUS - WATCHING */
 #list-container > div.list-block > div > table > tbody > tr.list-table-data > td.data.status.watching:after {
     content: "Watching";
-    color: rgb(252, 157, 214);
+    /* color: rgb(252, 157, 214); */
     visibility: visible;
     left: calc(0% + 840px);
     margin-top: calc(0% + 5px);
@@ -424,7 +424,7 @@ body > div.list-menu-float > a.icon-menu.anime-list > span {
     background-image: url("https://raw.githubusercontent.com/davdi1337/anilisttomal/master/svg/expand_more-white-18dp.svg")!important;
     background-size: 24px!important;
 }
-
+/*
 #advanced-options > div.advanced-options-button > a.btn-clear,
 #advanced-options > div.advanced-options-button > a.btn-apply {
     background-color: rgba(252, 157, 214, 0.8);
@@ -435,6 +435,7 @@ body > div.list-menu-float > a.icon-menu.anime-list > span {
 #advanced-options > div.advanced-options-button > a.btn-clear:hover{
     background-color: rgba(252, 157, 214, 1);
 }
+*/
 
 #advanced-options .advanced-options-header {
      font-family: Overpass,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif!important;
