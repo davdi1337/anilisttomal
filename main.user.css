@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name           AniList to MAL
-@namespace      AniList to MAL
+@namespace      AniList to MAL with color selector
 @homepageURL    https://github.com/davdi1337/anilisttomal
 @updateURL      https://raw.githubusercontent.com/davdi1337/anilisttomal/master/main.user.css
-@version        1.0.2
+@version        1.0.25
 @description    Transform AniList to MAL
+@var color textColor "Main color" rgb(252, 157, 214)
 @author         davdi1337
 ==/UserStyle== */
 @-moz-document url-prefix("https://myanimelist.net/animelist"), url-prefix("https://myanimelist.net/mangalist") {
@@ -15,6 +16,39 @@
     --bg2: rgb(11,22,34);
     --bg3: rgb(21,31,46);
 }
+    /* CUSTOM COLOR SETTINGS */
+    :root {
+        --color: var(--textColor);
+    }
+    .list-table .list-table-data a:not(.edit-disabled):hover {
+        color: var(--color) !important;
+        filter: saturate(200%);
+    }
+    .list-table .list-table-data a:not(.edit-disabled) {
+        filter: saturate(80%);
+    }
+    .list-menu-float .icon-menu:hover svg.icon {
+        fill: var(--color)!important;
+        filter: saturate(200%);
+    }
+    .status-menu-container .status-menu .status-button:hover {
+        color: var(--color);
+        opacity: 0.6;
+    }
+    #advanced-options > div.advanced-options-button > a.btn-clear,
+    #advanced-options > div.advanced-options-button > a.btn-apply {
+        background-color: var(--color);
+        opacity: 0.7;
+        border-radius: 4px;
+    }
+    #advanced-options > div.advanced-options-button > a.btn-clear:hover,
+    #advanced-options > div.advanced-options-button > a.btn-apply:hover {
+        opacity: 1;
+    }
+    #list-container > div.list-block > div > table > tbody > tr.list-table-data > td.data.image > a {
+        filter: saturate(100%);
+    }
+    /* CUSTOM COLOR SETTINGS */
 
 body {
     font-family: Overpass,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif; 
@@ -462,7 +496,8 @@ body > div.list-menu-float > a.icon-menu.anime-list > span {
     font-size: 50px;
     position: absolute;
     left: 220px;
-    top: 10px;
+    top: 0px;
+    /* top: 10px; */
     color: #fff;
     font-family: Overpass,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif!important;
     font-weight: 600;
