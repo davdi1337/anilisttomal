@@ -2,9 +2,8 @@
 # __AniList to MAL__
 #### Make MAL looks like AniList (Only anime and mangalist)
 
-__FIRST, YOU NEED STYLUS TO YOUR BROWSER!__
 - Install stylus to your browser(Click [HERE](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe) to install)
 - Install the style with userstyles.org from [HERE](http://userstyles.org/styles/189764)
 
-# __Preview__
+# __Preview(old)__
 ![Screenshot](https://i.imgur.com/1VGoGME.png)
