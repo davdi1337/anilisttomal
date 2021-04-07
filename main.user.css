@@ -3,7 +3,7 @@
 @namespace      AniList to MAL with color selector
 @homepageURL    https://github.com/davdi1337/anilisttomal
 @updateURL      https://raw.githubusercontent.com/davdi1337/anilisttomal/master/main.user.css
-@version        1.25
+@version        1.0.4
 @description    Transform AniList to MAL
 @var color textColor "Main color" rgb(252, 157, 214)
 @author         davdi1337
@@ -553,7 +553,7 @@ body > div.list-menu-float > a.icon-menu.anime-list > span {
 
 /* WATERMARK */
 .header .header-menu .btn-menu:before {
-    content: "ANILIST TO MYANIMELIST V1.25 - THEME MADE BY: DAVDI1337©";
+    content: "ANILIST TO MYANIMELIST V1.0.4 - THEME MADE BY: DAVDI1337©";
     visibility: visible;
     right: calc(0% + 130%);
     top: calc(0% + 100%);
